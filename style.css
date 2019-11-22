@@ -1,0 +1,132 @@
+body {
+	background-image: url('img/generateur_de_citations2bis.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.row {
+    margin: 0;
+}
+
+.swal2-confirm.swal2-styled {
+    background-color: orange !important;
+}
+                                                    
+/* 
+=============== 
+TITLE
+=============== */
+.title-div {
+    text-align: center;
+    margin-top: 3rem;
+    font-family:'Righteous', cursive, serif;
+    color:#fff;
+}
+
+/* 
+=============== 
+SELECTS
+=============== */
+.label-select {
+    color: white;
+    text-transform: uppercase;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-family: Montserrat, serif;
+}
+.form-group-1 {
+    margin-right: 20px;
+}
+
+#FormControlSelect1 {
+    text-align: center;
+    
+}
+#FormControlSelect2 {
+    text-align: center;
+}
+
+/* 
+=============== 
+QUOTE GENERATION BUTTON
+=============== */
+.btn-quote-generator {
+    color: white;
+    margin-top : 7rem;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 99px 30px 165px 30px;
+    -moz-border-radius: 99px 30px 165px 30px;
+    -webkit-border-radius: 99px 30px 165px 30px;
+}
+.row-btn {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.paragrapheBtn {
+    color: white;
+    font-family: montserrat, serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media(max-width: 768px) {
+    .hvr-buzz {
+        width: 100% !important; 
+        height: 200px !important;
+        font-size: 40px !important;
+        border-radius: 50% !important;
+    }
+}
+
+@-webkit-keyframes hvr-buzz {
+    50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+    }
+}
+
+@keyframes hvr-buzz {
+    50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+    }
+}
+.hvr-buzz {
+   
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-buzz:hover {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 30px 99px 30px 99px;
+    -moz-border-radius: 30px 99px 30px 99px;
+    -webkit-border-radius: 30px 99px 30px 99px;
+}

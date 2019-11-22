@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Générateur de citations</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+<body>
+
+	<div class="container">
+        <div class="row col-sm-12 justify-content-center title-div">
+            <h1>Générateur de citations</h1>
+        </div>
+        <div class="row col-sm-12 justify-content-center">
+            <div class="form-group form-group-1">
+                <label for="FormControlSelect1" class="label-select">Sélectionnez le nombre :</label>
+                <input type="number" name="FormControlSelect1" id="FormControlSelect1" class="form-control" min="1" max="5" value="1">
+                
+            </div>
+            <div class="form-group">
+                    <label for="FormControlSelect2" class="label-select">Sélectionnez le type :</label>
+                    <select class="form-control" id="FormControlSelect2">
+                        <!-- the option tag is generated dynamicaly-->
+                    </select>
+                </div>
+        </div>
+		<div class="row col-sm-12 justify-content-center row-btn">
+            <button class="btn-quote-generator btn btn-lg btn-warning hvr-buzz">Générer une citation...</button>
+        </div>
+	</div>
+
+    <!-- jQuery -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script async src="script.js"></script>
+	<!-- SweetAlert -->
+	<script async src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+</html>
