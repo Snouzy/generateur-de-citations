@@ -1,5 +1,3 @@
-# Generateur de citations
-
 # Imaginez un générateur de citations
 Vous venez de découvrir JavaScript ? Très bien ! Mais vous ne deviendrez développeur JavaScript, et donc développeur frontend, que si vous pratiquez à l'aide de projets concrets.
 
